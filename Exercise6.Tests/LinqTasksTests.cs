@@ -6,14 +6,14 @@ namespace Exercise6.Tests
     public class LinqTasksTests
     {
         #region Init
-        public static IEnumerable<Emp> EmpsTest { get; set; } = new List<Emp>();
+        public static IEnumerable<Emp?> EmpsTest { get; set; } = new List<Emp?>();
         public static IEnumerable<Dept> DeptsTest { get; set; } = new List<Dept>();
 
         public static int[] Array = { 1, 1, 1, 1, 1, 1, 10, 1, 1, 1, 1, 10, 2, 10, 10 };
 
         public LinqTasksTests()
         {
-            var empsCol = new List<Emp>();
+            var empsCol = new List<Emp?>();
             var deptsCol = new List<Dept>();
 
 
